@@ -1,73 +1,161 @@
-# Welcome to your Lovable project
+<h1 align="center">🌌 WHAT IF — AI Scenario Consequence Simulator</h1>
 
-## Project info
+<p align="center">
+  <em>A futuristic glass-UI web application that predicts the consequences of any “What If…” scenario using AI.</em>
+</p>
 
-**URL**: https://lovable.dev/projects/0f9d6bdd-ab64-4e10-975f-1dc8a0f69f32
+<p align="center">
+  <strong>React • Vite • TypeScript • Tailwind • Shadcn • Three.js • Gemini / Claude</strong>
+</p>
 
-## How can I edit this code?
+<br/>
 
-There are several ways of editing your application.
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Glass_UI-38bdf8?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/3D-Three.js-black?style=for-the-badge&logo=three.js" />
+  <img src="https://img.shields.io/badge/AI-Gemini/Claude-orange?style=for-the-badge&logo=google" />
+</p>
 
-**Use Lovable**
+<br/>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0f9d6bdd-ab64-4e10-975f-1dc8a0f69f32) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+# ✨ Overview
 
-**Use your preferred IDE**
+**WHAT IF** is an intelligent scenario simulator.  
+You type any hypothetical situation — and the app instantly returns:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+✅ Realistic consequences  
+✅ Risk levels & impact  
+✅ Mitigation advice  
+✅ Safer alternatives  
+✅ Confidence score  
+✅ Timeframe (short/mid/long term)  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+All presented inside a **glassmorphism UI** with a **subtle animated 3D background**.
 
-Follow these steps:
+<br/>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 🧠 Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ✅ AI-Powered “What If” Generator  
+Uses Gemini or Claude to create structured JSON with:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- summary  
+- overall risk  
+- confidence  
+- timeframe  
+- consequences (with likelihood, impact, mitigation)  
+- alternatives  
+- disclaimer  
+
+### ✅ Glassmorphism User Interface  
+- Frosted translucent panels  
+- Soft shadows  
+- Smooth gradients  
+- Fully responsive layout  
+
+### ✅ Lightweight 3D Background (Three.js)
+- Low-poly animated shape  
+- Subtle, minimal, non-distracting  
+- Extremely low GPU load 
+
+<br/>
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **React 18** | UI Framework |
+| **Vite** | Lightning-fast dev environment |
+| **TypeScript** | Strict typing |
+| **Tailwind CSS** | Styling |
+| **shadcn-ui** | Reusable UI components |
+| **React Three Fiber + Drei** | 3D rendering |
+| **Gemini / Claude** | AI consequence generation |
+
+<br/>
+
+---
+
+# 📦 Installation
+
+```bash
+git clone (https://github.com/prathamesh-uttam-patil/whatIf.git)
+cd <whatIf>
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+App runs at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+http://localhost:5173
 
-**Use GitHub Codespaces**
+<br/>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🔧 Environment Setup
 
-## What technologies are used for this project?
+Create .env:
 
-This project is built with:
+VITE_GEMINI_API_KEY=😒😒
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+<br/>
+🧪 API Usage
+Endpoint
 
-## How can I deploy this project?
+POST /api/whatif
 
-Simply open [Lovable](https://lovable.dev/projects/0f9d6bdd-ab64-4e10-975f-1dc8a0f69f32) and click on Share -> Publish.
+Request Example
+{
+  "query": "What if I move abroad?",
+  "tone": "balanced",
+  "scope": "personal"
+}
 
-## Can I connect a custom domain to my Lovable project?
+<br/>
+📁 Project Structure
+src/
+  components/
+  pages/
+  App.tsx
+  main.tsx
+public/
+vite.config.ts
+tailwind.config.cjs
+README.md
 
-Yes, you can!
+<br/>
+🚀 Roadmap
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+ Save & view past scenarios
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+ Compare two “what-if” paths side-by-side
+
+ Export result sets as PDF
+
+ Shareable scenario links
+
+ Native mobile app version
+
+<br/>
+🤝 Contributing
+
+Contributions, suggestions, and PRs are welcome!
+
+<br/>
+📄 License
+
+MIT © Prathamesh Patil
+
+<br/>
+⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
+
