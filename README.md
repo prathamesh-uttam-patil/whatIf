@@ -95,18 +95,14 @@ npm install
 npm run dev
 
 App runs at:
-
 http://localhost:5173
 
-<br/>
 
 🔧 Environment Setup
-
 Create .env:
-
 VITE_GEMINI_API_KEY=😒😒
 
-<br/>
+
 🧪 API Usage
 Endpoint
 
@@ -119,7 +115,7 @@ Request Example
   "scope": "personal"
 }
 
-<br/>
+
 📁 Project Structure
 src/
   components/
@@ -131,31 +127,22 @@ vite.config.ts
 tailwind.config.cjs
 README.md
 
-<br/>
+
 🚀 Roadmap
-
  Save & view past scenarios
-
  Compare two “what-if” paths side-by-side
-
  Export result sets as PDF
-
  Shareable scenario links
-
  Native mobile app version
 
-<br/>
-🤝 Contributing
 
+🤝 Contributing
 Contributions, suggestions, and PRs are welcome!
 
-<br/>
-📄 License
 
+📄 License
 MIT © Prathamesh Patil
 
-<br/>
+
 ⭐ Support
-
 If you like this project, consider giving it a star ⭐ on GitHub.
-
