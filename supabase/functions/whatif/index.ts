@@ -74,7 +74,7 @@ The JSON must exactly match this schema:
 Tone: ${tone}
 Scope: ${scope}
 
-Provide 3-5 consequences. Be realistic and actionable.
+Provide 3-5 consequences. Be realistic and actionable. most important if input prompt in marathi language then have to response in marathi language.
 
 User query: ${query}`;
 
