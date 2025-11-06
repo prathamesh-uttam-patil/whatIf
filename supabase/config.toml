@@ -1,0 +1,4 @@
+project_id = "chflifpmpkohuqcqanfg"
+
+[functions.whatif]
+verify_jwt = false
