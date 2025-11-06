@@ -61,10 +61,10 @@ Uses Gemini or Claude to create structured JSON with:
 - Smooth gradients  
 - Fully responsive layout  
 
-### ✅ Lightweight 3D Background (Three.js)
+### ✅ Lightweight 3D Background (Three.js)  
 - Low-poly animated shape  
 - Subtle, minimal, non-distracting  
-- Extremely low GPU load 
+- Extremely low GPU load  
 
 <br/>
 
@@ -86,63 +86,35 @@ Uses Gemini or Claude to create structured JSON with:
 
 ---
 
-# 📦 Installation
+# 🚀 Roadmap  
+<br/>
 
-```bash
-git clone (https://github.com/prathamesh-uttam-patil/whatIf.git)
-cd <whatIf>
-npm install
-npm run dev
+- **Save & view past scenarios** 🗂️  
+- **Compare two “what-if” paths side-by-side** 🔀  
+- **Export result sets as PDF** 📄  
+- **Shareable scenario links** 🔗  
+- **Native mobile app version** 📱  
 
-App runs at:
-http://localhost:5173
+<br/>
 
+---
 
-🔧 Environment Setup
-Create .env:
-VITE_GEMINI_API_KEY=😒😒
+# 🤝 Contributing
 
-
-🧪 API Usage
-Endpoint
-
-POST /api/whatif
-
-Request Example
-{
-  "query": "What if I move abroad?",
-  "tone": "balanced",
-  "scope": "personal"
-}
-
-
-📁 Project Structure
-src/
-  components/
-  pages/
-  App.tsx
-  main.tsx
-public/
-vite.config.ts
-tailwind.config.cjs
-README.md
-
-
-🚀 Roadmap
- Save & view past scenarios
- Compare two “what-if” paths side-by-side
- Export result sets as PDF
- Shareable scenario links
- Native mobile app version
-
-
-🤝 Contributing
 Contributions, suggestions, and PRs are welcome!
 
+<br/>
 
-📄 License
+---
+
+# 📄 License
+
 MIT © Prathamesh Patil
 
+<br/>
 
-⭐ Support
-If you like this project, consider giving it a star ⭐ on GitHub.
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a **star ⭐ on GitHub**.  
